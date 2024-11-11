@@ -4,29 +4,24 @@ import Component1 from './Component1';
 import Component2 from './Component2';
 import Component3 from './Component3';
 import Hello from './component/Hello.js';
+import Hello2 from './component/Hello2.js';
+
 
 function App() {
+  const tempName = "Test1";
+  const tempObj = {
+    name: "name1",
+    number: 1122
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          20241028
-          <Hello />
-          <Component1 />
-          <Component2 />
-          <Component3 />
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hello name="jiwon" />
+      <Hello2 name={tempName} />
+      <Hello2 obj={tempObj.number} />
+      <Component1 />
+      <Component2 />
+      <Component3 />
+    </>
   );
 }
 
