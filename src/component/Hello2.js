@@ -5,7 +5,7 @@ function Hello2(pros) {
     return (
         <>
             <h2>name: {pros.name}</h2>
-            <h2>obj: {pros.obj}</h2>
+            <h2>obj: {pros.number}</h2>
         </>
 
     );

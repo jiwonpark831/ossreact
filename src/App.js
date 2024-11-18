@@ -5,22 +5,35 @@ import Component2 from './Component2';
 import Component3 from './Component3';
 import Hello from './component/Hello.js';
 import Hello2 from './component/Hello2.js';
+import C20241114a from './component/C20241114a.js';
+import Router from './Router.js'
+import C20241118 from './component/C20241118.js';
+import C20241118UseState from './component/C20241118UseState.js';
+import C202411183 from './component/C202411183.js';
 
 
 function App() {
-  const tempName = "Test1";
-  const tempObj = {
-    name: "name1",
-    number: 1122
-  }
+  // const tempName = "Test1";
+  // const tempObj = {
+  //   name: "name1",
+  //   number: 1122
+  // }
   return (
+    // <Router />
+    // <>
+    //   <Hello name="jiwon" />
+    //   {/* <Hello2 name={tempName} obj ={tempObj} /> */}
+    //   {/* <C20241114a name={tempName} obj ={tempObj} /> */}
+    //   <C20241114a name="parameter" />
+    //   {/* <Component1 />
+    //   <Component2 />
+    //   <Component3 /> */}
+    // </>
     <>
-      <Hello name="jiwon" />
-      <Hello2 name={tempName} />
-      <Hello2 obj={tempObj.number} />
-      <Component1 />
-      <Component2 />
-      <Component3 />
+      {/* <C20241118 title='12345' />
+      <C20241118UseState />
+      <br /> */}
+      <C202411183 />
     </>
   );
 }
