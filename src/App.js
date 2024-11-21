@@ -19,21 +19,8 @@ function App() {
   //   number: 1122
   // }
   return (
-    // <Router />
-    // <>
-    //   <Hello name="jiwon" />
-    //   {/* <Hello2 name={tempName} obj ={tempObj} /> */}
-    //   {/* <C20241114a name={tempName} obj ={tempObj} /> */}
-    //   <C20241114a name="parameter" />
-    //   {/* <Component1 />
-    //   <Component2 />
-    //   <Component3 /> */}
-    // </>
     <>
-      {/* <C20241118 title='12345' />
-      <C20241118UseState />
-      <br /> */}
-      <C202411183 />
+      <Router />
     </>
   );
 }
